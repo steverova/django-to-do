@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-jsyrtf%dbi=*=esrm%e^_o&_uyc)l!vvj8ot-ovq_5m(86n1a&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -128,7 +128,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+# ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 # CORS_ALLOW_ALL_ORIGINS: True
 
@@ -137,3 +137,8 @@ CORS_ALLOWED_ORIGINS = ["http://127.0.0.1:5173"]
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
 }
+
+
+# "home/sunsetSteve/django-to-do"
+# crud_api
+#venv
