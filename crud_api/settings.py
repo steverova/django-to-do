@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'crud_api.wsgi.application'
+WSGI_APPLICATION = 'crud_api.wsgi.app'
 
 
 # Database
